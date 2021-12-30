@@ -23,6 +23,14 @@ Install apex as documented at https://github.com/NVIDIA/apex
 Run
 ===
 
+To test segmentation only:
+copy weight to _runs/segment-fold0
+run this command: bash segmentation.sh
+
+
+
+
+
 All steps required for submission are in heavily commented ``run-all.sh``
 and ``level2.sh``. Note that ``run-all.sh`` was never run in one step
 (it would take too much time), so may contain errors.
